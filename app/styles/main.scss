@@ -1,0 +1,82 @@
+html, body{
+  height: 100%;
+}
+
+header{
+  background-image: url(../images/castelo.jpg);
+  background-size: cover;
+  background-position: top center;
+  height: 100vh;
+}
+
+.navbar{
+  z-index: 1;
+}
+
+.banner{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 80%;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  &__title{
+    margin: 0;
+  }
+}
+
+#accordionExample{
+  margin-top: 10px;
+}
+
+.impact-title, .institutional, .contact, .our-business{
+  margin-top: 20px;
+}
+
+.card--space{
+  margin-top: 10px;
+}
+
+.depositions__title{
+  background-color: #0781eb;
+  margin-top: 20px;
+  margin-bottom: 0;
+  color: #fff;
+  font-weight: bold;
+}
+
+.form__group{
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__select{
+  width: 50%;
+}
+
+.footer{
+  background-color: #333;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+
+  &__address{
+    padding-top: 20px;
+  }
+
+  &__email{
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+  }
+}
+
+@media(min-width: 768px){
+  #accordionExample{
+    margin-top: 0;
+  }
+}
